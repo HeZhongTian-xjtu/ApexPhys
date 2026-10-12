@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Datasets and generated preprocessing artifacts
+data/
+datasets/**/sample.hdf5
+*.h5
+*.hdf5
+*.avi
+*.mp4
+*.mat
+
+# Training outputs and checkpoints
+runs/
+logs/*
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# Local configuration and editor files
+.env
+.idea/
+.vscode/
+*.swp
